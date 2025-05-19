@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE folders
+.vscode/
+.idea/
+
+# Data folders if large (optional)
+# data/
+# images/
+# logs/

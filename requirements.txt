@@ -1,0 +1,13 @@
+loguru
+pyttsx3
+requests
+python-dotenv
+openpyxl
+xlsxwriter
+xlrd
+duckdb
+sqlalchemy
+pandas
+numpy
+matplotlib
+seaborn
