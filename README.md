@@ -80,3 +80,73 @@ If you're using Jupyter notebooks, make sure to run:python -m ipykernel install 
 
 #Author
 Blessing Aganaga
+
+##P3 python data project
+# 🧪 Ebola Data Analytics Project
+
+This project fetches, transforms, analyzes, and visualizes Ebola outbreak data across multiple countries. The goal is to derive insights about the spread and impact of the virus using Python, Pandas, Seaborn, and Matplotlib.
+
+---
+
+## 📁 Project Structure
+datafun-03-analytics/
+│
+├── bless_data_project.py # Main script for the analysis
+├── utils_logger.py # Logger configuration module
+├── data/ # Contains input and output data files
+│ ├── ebola_country_timeseries.csv
+│ ├── ebola_summary_by_country.csv
+│ ├── ebola_summary_by_country.xlsx
+│ └── ebola_summary_by_country.json
+│
+├── ebola_cases_over_time.png # Line plot of Ebola cases over time
+├── ebola_cases_vs_deaths.png # Bar plot of total cases vs deaths
+└── README.md
+
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/datafun-03-analytics.git
+cd datafun-03-analytics
+
+ Create a Virtual Environment
+ python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+Install dependencies:pip install pandas matplotlib seaborn openpyxl
+How to Run
+
+Run the main Python script: 
+python bless_data_project.py
+This will:
+
+Download the Ebola CSV data
+Transform it into long format
+Generate summary statistics (CSV, Excel, JSON)
+Create and save two visualizations
+
+📊 Visualizations
+Ebola Cases Over Time
+ebola_cases_over_time.png: A line plot showing how the number of cases evolved in the top 5 most affected countries.
+Cases vs Deaths by Country
+ebola_cases_vs_deaths.png: A side-by-side bar chart comparing total cases and deaths for each country.
+
+🧠 Insights
+You can explore which countries had the most severe outbreaks.
+Observe the time-based spread patterns.
+Understand the difference between reported cases and fatalities.
+
+🛠️ Technologies Used
+Python 3
+Pandas for data processing
+Seaborn & Matplotlib for plotting
+Logging for transparent execution tracking
+
+🔗 Data Source
+Ebola Data from GitHub - cmrivers/ebola
+
+
+
