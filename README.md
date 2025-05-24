@@ -79,14 +79,8 @@ Standard Python libraries (like os, math, datetime) are part of the standard lib
 
 
 
-## p3 python data project
-
-
-
 
 ## 🚀 **P3 Python Data Project**
-
-Add visualizations and update README
 
 # 🧪 Ebola Data Analytics Project
 
