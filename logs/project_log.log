@@ -1,0 +1,134 @@
+2025-05-22 18:25:50.648 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 18:25:50.648 | INFO     | __main__:main:41 - Starting bless_data_project.py
+2025-05-22 18:25:50.648 | INFO     | __main__:fetch_data:10 - Fetching data from: https://www.gutenberg.org/files/1342/1342-0.txt
+2025-05-22 18:25:56.521 | INFO     | __main__:fetch_data:14 - Data fetched successfully.
+2025-05-22 18:25:56.522 | INFO     | __main__:process_data:22 - Processing data...
+2025-05-22 18:25:56.545 | INFO     | __main__:process_data:25 - Processed 127377 words.
+2025-05-22 18:25:56.546 | INFO     | __main__:save_to_file:30 - Saving data to output.txt
+2025-05-22 18:25:56.547 | INFO     | __main__:save_to_file:35 - Data saved successfully.
+2025-05-22 18:25:56.547 | INFO     | __main__:main:47 - Script complete.
+2025-05-22 18:56:13.865 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 18:56:13.866 | INFO     | __main__:main:69 - Starting bless_data_project.py
+2025-05-22 18:56:13.866 | INFO     | __main__:fetch_data:11 - Fetching data from: https://www.gutenberg.org/files/1342/1342-0.txt
+2025-05-22 18:56:15.110 | INFO     | __main__:fetch_data:15 - Data fetched successfully.
+2025-05-22 18:56:15.114 | INFO     | __main__:process_data:23 - Processing data...
+2025-05-22 18:56:15.128 | INFO     | __main__:process_data:25 - Processed 127377 words.
+2025-05-22 18:56:15.139 | INFO     | __main__:analyze_word_frequency:31 - Analyzing top 10 most common words...
+2025-05-22 18:56:15.151 | INFO     | __main__:analyze_word_frequency:43 - Top words saved to top_words.txt
+2025-05-22 18:56:15.151 | INFO     | __main__:plot_top_words:50 - Plotting top 10 words...
+2025-05-22 18:56:37.316 | INFO     | __main__:plot_top_words:65 - Top words chart saved as top_words_chart.png
+2025-05-22 18:56:37.318 | INFO     | __main__:main:77 - Script complete.
+2025-05-22 19:06:41.027 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 19:06:41.027 | INFO     | __main__:main:125 - Starting bless_data_project.py
+2025-05-22 19:06:41.027 | INFO     | __main__:fetch_text_data:55 - Fetching book text from: https://www.gutenberg.org/files/1342/1342-0.txt
+2025-05-22 19:06:42.272 | INFO     | __main__:process_text:65 - Processing text...
+2025-05-22 19:06:42.294 | INFO     | __main__:process_text:68 - Processed 49629 cleaned words.
+2025-05-22 19:06:42.301 | INFO     | __main__:save_top_words_txt:79 - Top words saved to: example_output/top_words.txt
+2025-05-22 19:06:42.301 | INFO     | __main__:save_top_words_csv:92 - Top words saved to CSV: example_output/top_words.csv
+2025-05-22 19:06:42.301 | INFO     | __main__:plot_top_words:98 - Plotting top 10 words...
+2025-05-22 19:06:42.793 | INFO     | __main__:plot_top_words:114 - Chart saved to: example_output/top_words_chart.png
+2025-05-22 19:07:05.365 | INFO     | __main__:main:137 - Script complete.
+2025-05-22 19:39:03.844 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 19:39:03.845 | INFO     | __main__:main:70 - Starting bless_data_project...
+2025-05-22 19:39:03.845 | INFO     | __main__:fetch_data:13 - Fetching data from: https://www.gutenberg.org/files/1342/1342-0.txt
+2025-05-22 19:39:05.237 | INFO     | __main__:fetch_data:17 - Data fetched successfully.
+2025-05-22 19:39:05.240 | INFO     | __main__:process_data:25 - Processing data into words...
+2025-05-22 19:39:05.254 | INFO     | __main__:process_data:27 - Processed 127377 words.
+2025-05-22 19:39:05.254 | INFO     | __main__:analyze_word_frequency:32 - Analyzing top 10 most common words...
+2025-05-22 19:39:05.266 | ERROR    | __main__:analyze_word_frequency:45 - Error saving top words: [Errno 2] No such file or directory: 'data/processed/top_words.txt'
+2025-05-22 19:39:05.266 | INFO     | __main__:plot_top_words:51 - Plotting top 10 words...
+2025-05-22 20:43:32.492 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 20:43:32.492 | INFO     | __main__:main:59 - Starting Ebola data project
+2025-05-22 20:43:32.492 | INFO     | __main__:fetch_csv_file:17 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-22 20:43:35.249 | INFO     | __main__:fetch_csv_file:24 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-22 20:43:35.251 | INFO     | __main__:load_data:30 - Loading data from data/ebola_country_timeseries.csv
+2025-05-22 20:43:35.256 | INFO     | __main__:load_data:32 - Loaded data with shape (122, 18)
+2025-05-22 20:43:35.256 | INFO     | __main__:analyze_data:36 - Analyzing Ebola cases by country...
+2025-05-23 09:00:32.332 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 09:00:32.332 | INFO     | __main__:main:68 - Starting Ebola data project
+2025-05-23 09:00:32.332 | INFO     | __main__:fetch_csv_file:17 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 09:00:32.644 | INFO     | __main__:fetch_csv_file:24 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 09:00:32.644 | INFO     | __main__:load_data:30 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 09:00:32.651 | INFO     | __main__:load_data:32 - Loaded data with shape (122, 18)
+2025-05-23 09:00:32.651 | INFO     | __main__:analyze_data:37 - Analyzing Ebola cases by country...
+2025-05-23 09:00:32.653 | ERROR    | __main__:analyze_data:45 - Missing expected column: 'Country'
+2025-05-23 09:00:32.653 | INFO     | __main__:plot_cases_over_time:49 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 09:00:32.653 | ERROR    | __main__:plot_cases_over_time:65 - Plotting error: 'Country'
+2025-05-23 09:00:32.653 | INFO     | __main__:main:73 - Ebola data project completed.
+2025-05-23 09:19:38.144 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 09:19:38.145 | INFO     | __main__:main:82 - Starting Ebola data project
+2025-05-23 09:19:38.145 | INFO     | __main__:fetch_csv_file:17 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 09:19:38.497 | INFO     | __main__:fetch_csv_file:24 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 09:19:38.498 | INFO     | __main__:load_data:30 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 09:19:38.505 | INFO     | __main__:load_data:32 - Loaded data with shape (122, 18)
+2025-05-23 09:19:38.506 | INFO     | __main__:transform_data:37 - Transforming data to long format...
+2025-05-23 09:19:38.526 | INFO     | __main__:transform_data:55 - Transformed data shape: (976, 4)
+2025-05-23 09:19:38.526 | INFO     | __main__:analyze_data:59 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 09:19:38.532 | INFO     | __main__:plot_cases_over_time:65 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 09:19:46.266 | INFO     | __main__:plot_cases_over_time:79 - Saved plot as ebola_cases_over_time.png
+2025-05-23 09:19:46.267 | INFO     | __main__:main:88 - Ebola data project completed.
+2025-05-23 12:35:12.127 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 12:35:12.128 | INFO     | __main__:main:97 - Starting Ebola data project
+2025-05-23 12:35:12.128 | INFO     | __main__:fetch_csv_file:17 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 12:35:12.469 | INFO     | __main__:fetch_csv_file:24 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 12:35:12.470 | INFO     | __main__:load_data:30 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 12:35:12.477 | INFO     | __main__:load_data:32 - Loaded data with shape (122, 18)
+2025-05-23 12:35:12.477 | INFO     | __main__:transform_data:37 - Transforming data to long format...
+2025-05-23 12:35:12.493 | INFO     | __main__:transform_data:55 - Transformed data shape: (976, 4)
+2025-05-23 12:35:12.493 | INFO     | __main__:analyze_data:59 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 12:35:12.499 | INFO     | __main__:analyze_data:74 - Saved summary stats to data/ebola_summary_by_country.csv
+2025-05-23 12:35:12.499 | INFO     | __main__:plot_cases_over_time:80 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 12:35:23.473 | INFO     | __main__:plot_cases_over_time:94 - Saved plot as ebola_cases_over_time.png
+2025-05-23 12:35:23.475 | INFO     | __main__:main:103 - Ebola data project completed.
+2025-05-23 13:03:48.024 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 13:03:48.025 | INFO     | __main__:main:77 - Starting Ebola data project
+2025-05-23 13:03:48.025 | INFO     | __main__:fetch_csv_file:9 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 13:03:48.445 | INFO     | __main__:fetch_csv_file:12 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 13:03:48.446 | INFO     | __main__:load_data:16 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 13:03:48.447 | INFO     | __main__:load_data:18 - Loaded data with shape (122, 18)
+2025-05-23 13:03:48.448 | INFO     | __main__:transform_data:23 - Transforming data to long format...
+2025-05-23 13:03:48.461 | INFO     | __main__:transform_data:41 - Transformed data shape: (976, 5)
+2025-05-23 13:03:48.461 | INFO     | __main__:analyze_data:45 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 13:03:48.499 | INFO     | __main__:analyze_data:53 - Saved summary to CSV, Excel, and JSON formats.
+2025-05-23 13:03:48.499 | INFO     | __main__:plot_cases_over_time:58 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 13:03:49.110 | INFO     | __main__:plot_cases_over_time:72 - Saved plot as ebola_cases_over_time.png
+2025-05-23 13:03:49.110 | INFO     | __main__:main:94 - Ebola data project completed.
+2025-05-23 13:14:04.694 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 13:14:04.695 | INFO     | __main__:main:77 - Starting Ebola data project
+2025-05-23 13:14:04.695 | INFO     | __main__:fetch_csv_file:9 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 13:14:05.040 | INFO     | __main__:fetch_csv_file:12 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 13:14:05.040 | INFO     | __main__:load_data:16 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 13:14:05.042 | INFO     | __main__:load_data:18 - Loaded data with shape (122, 18)
+2025-05-23 13:14:05.042 | INFO     | __main__:transform_data:23 - Transforming data to long format...
+2025-05-23 13:14:05.060 | INFO     | __main__:transform_data:41 - Transformed data shape: (976, 5)
+2025-05-23 13:14:05.060 | INFO     | __main__:analyze_data:45 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 13:14:05.101 | INFO     | __main__:analyze_data:53 - Saved summary to CSV, Excel, and JSON formats.
+2025-05-23 13:14:05.101 | INFO     | __main__:plot_cases_over_time:58 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 13:14:05.759 | INFO     | __main__:plot_cases_over_time:72 - Saved plot as ebola_cases_over_time.png
+2025-05-23 13:14:05.759 | INFO     | __main__:main:94 - Ebola data project completed.
+2025-05-23 15:44:08.472 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 15:44:08.472 | INFO     | __main__:main:108 - Starting Ebola data project
+2025-05-23 15:44:08.472 | INFO     | __main__:fetch_csv_file:10 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 15:44:08.922 | INFO     | __main__:fetch_csv_file:14 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 15:44:08.922 | INFO     | __main__:load_data:19 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 15:44:08.923 | INFO     | __main__:load_data:21 - Loaded data with shape (122, 18)
+2025-05-23 15:44:08.923 | INFO     | __main__:transform_data:27 - Transforming data to long format...
+2025-05-23 15:44:08.936 | INFO     | __main__:transform_data:45 - Transformed data shape: (976, 5)
+2025-05-23 15:44:08.936 | INFO     | __main__:analyze_data:50 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 15:44:08.973 | INFO     | __main__:analyze_data:58 - Saved summary to CSV, Excel, and JSON formats.
+2025-05-23 15:44:08.973 | INFO     | __main__:plot_cases_over_time:64 - Plotting Ebola cases over time for top 5 affected countries...
+2025-05-23 15:44:09.597 | INFO     | __main__:plot_cases_over_time:78 - Saved plot as ebola_cases_over_time.png
+2025-05-23 15:44:09.598 | INFO     | __main__:plot_cases_vs_deaths:85 - Plotting total cases vs deaths by country...
+2025-05-23 15:44:09.911 | INFO     | __main__:plot_cases_vs_deaths:103 - Saved plot as ebola_cases_vs_deaths.png
+2025-05-23 15:44:09.911 | INFO     | __main__:main:121 - Ebola data project completed.
+2025-05-23 16:36:42.748 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-23 16:36:42.749 | INFO     | __main__:main:109 - Starting Ebola data project
+2025-05-23 16:36:42.749 | INFO     | __main__:fetch_csv_file:10 - Fetching CSV data from https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv
+2025-05-23 16:36:43.178 | INFO     | __main__:fetch_csv_file:14 - Saved CSV to data/ebola_country_timeseries.csv
+2025-05-23 16:36:43.179 | INFO     | __main__:load_data:19 - Loading data from data/ebola_country_timeseries.csv
+2025-05-23 16:36:43.180 | INFO     | __main__:load_data:21 - Loaded data with shape (122, 18)
+2025-05-23 16:36:43.181 | INFO     | __main__:transform_data:27 - Transforming data to long format...
+2025-05-23 16:36:43.196 | INFO     | __main__:transform_data:45 - Transformed data shape: (976, 5)
+2025-05-23 16:36:43.196 | INFO     | __main__:analyze_data:50 - Analyzing total Ebola cases and deaths by country...
+2025-05-23 16:36:43.233 | INFO     | __main__:analyze_data:58 - Saved summary to CSV, Excel, and JSON formats.
+2025-05-23 16:36:43.233 | INFO     | __main__:plot_cases_over_time:64 - Plotting Ebola cases over time for top 5 affected countries...
