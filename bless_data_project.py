@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import logging
 from utils_logger import logger  # Your custom logger configuration
+import text  # Import the new text module
 
 
 def fetch_csv_file(url: str, save_path: str):
@@ -75,7 +76,7 @@ def plot_cases_over_time(df: pd.DataFrame):
         plt.legend(title="Country")
         plt.tight_layout()
         plt.savefig("ebola_cases_over_time.png")
-        plt.show()  # 👈 This makes the plot show in VS Code
+        plt.show()
         logger.info("Saved plot as ebola_cases_over_time.png")
     except Exception as e:
         logger.error(f"Plotting error: {e}")
@@ -118,6 +119,8 @@ def main():
 
     plot_cases_over_time(df_transformed)
     plot_cases_vs_deaths(summary)
+
+    text.write_project_notes()  # <-- Added call to write the text notes file
 
     logger.info("Ebola data project completed.")
 
