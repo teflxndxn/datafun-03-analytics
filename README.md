@@ -81,7 +81,7 @@ If you're using Jupyter notebooks, make sure to run:python -m ipykernel install 
 #Author
 Blessing Aganaga
 
-<h1 style="color:blue;">its p3 python data project</h1>
+## p3 python data project
 
 # 🧪 Ebola Data Analytics Project
 
