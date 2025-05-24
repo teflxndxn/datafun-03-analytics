@@ -78,7 +78,15 @@ Standard Python libraries (like os, math, datetime) are part of the standard lib
 
 
 
+
 ## p3 python data project
+
+
+
+
+## 🚀 **P3 Python Data Project**
+
+Add visualizations and update README
 
 # 🧪 Ebola Data Analytics Project
 
@@ -127,13 +135,10 @@ Generate summary statistics (CSV, Excel, JSON)
 Create and save two visualizations
 
 📊 Visualizations
-### Ebola Cases Over Time
+![Ebola Cases Over Time](ebola_cases_over_time.png)
 
-![Ebola Cases Over Time](images/ebola_cases_over_time.png)
+![Total Cases vs Deaths](ebola_cases_vs_deaths.png)
 
-### Total Cases vs Deaths by Country
-
-![Total Cases vs Deaths](images/ebola_cases_vs_deaths.png)
 
 
 🧠 Insights
