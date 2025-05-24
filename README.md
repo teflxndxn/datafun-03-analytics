@@ -76,10 +76,7 @@ ipykernel
 Only external dependencies are listed in requirements.txt.
 Standard Python libraries (like os, math, datetime) are part of the standard library and do not need to be listed.
 
-If you're using Jupyter notebooks, make sure to run:python -m ipykernel install --user --name=venv
 
-#Author
-Blessing Aganaga
 
 ## p3 python data project
 
