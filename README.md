@@ -130,8 +130,8 @@ Create and save two visualizations
 
 📊 Visualizations
 ![Ebola Cases Over Time](ebola_cases_over_time.png)
-
 ![Total Cases vs Deaths](ebola_cases_vs_deaths.png)
+
 
 
 
