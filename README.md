@@ -81,7 +81,8 @@ If you're using Jupyter notebooks, make sure to run:python -m ipykernel install 
 #Author
 Blessing Aganaga
 
-##P3 python data project
+<h1 style="color:blue;">its p3 python data project</h1>
+
 # 🧪 Ebola Data Analytics Project
 
 This project fetches, transforms, analyzes, and visualizes Ebola outbreak data across multiple countries. The goal is to derive insights about the spread and impact of the virus using Python, Pandas, Seaborn, and Matplotlib.
@@ -129,10 +130,14 @@ Generate summary statistics (CSV, Excel, JSON)
 Create and save two visualizations
 
 📊 Visualizations
-Ebola Cases Over Time
-ebola_cases_over_time.png: A line plot showing how the number of cases evolved in the top 5 most affected countries.
-Cases vs Deaths by Country
-ebola_cases_vs_deaths.png: A side-by-side bar chart comparing total cases and deaths for each country.
+### Ebola Cases Over Time
+
+![Ebola Cases Over Time](images/ebola_cases_over_time.png)
+
+### Total Cases vs Deaths by Country
+
+![Total Cases vs Deaths](images/ebola_cases_vs_deaths.png)
+
 
 🧠 Insights
 You can explore which countries had the most severe outbreaks.
